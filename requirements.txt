@@ -4,4 +4,3 @@ tqdm
 time
 telebot
 pillow
-setuptools
