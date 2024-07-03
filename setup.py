@@ -7,7 +7,7 @@ with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
 setup(
-    name='',
+    name='PBI_telegrambot',
     version='0.0.1',
     author='junscience',
     description='Embedding app for classification',
