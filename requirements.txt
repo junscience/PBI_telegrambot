@@ -1,5 +1,5 @@
 selenium
-dotenv
+python-dotenv
 tqdm
 telebot
 pillow
