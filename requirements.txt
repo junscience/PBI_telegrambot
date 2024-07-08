@@ -1,6 +1,5 @@
 selenium
 dotenv
 tqdm
-time
 telebot
 pillow
