@@ -13,9 +13,10 @@ setup(
     description='Embedding app for classification',
     install_requires=requirements,
     packages=find_packages(),
+    scripts=['telegram_bot.py'],
     entry_points={
-        'console_scripts': [
-            'run-telegram-bot=telegram_bot:main',
-        ],
+        'console_scripts':[
+            'PBI_telegrambot=telegram_bot:main'
+        ]
     }
 )
