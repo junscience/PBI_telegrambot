@@ -59,14 +59,13 @@ for num_of_tries in range(tries):
         dont_log = driver.find_element(By.ID, 'idBtn_Back')
         dont_log.click()
         print("ACCOUNT LOGGED SUCCESSFULLY")
-
+        break
 
     except BaseException as error:
         if num_of_tries < tries - 1:
             continue
         else:
             raise
-    break
 
 
 
