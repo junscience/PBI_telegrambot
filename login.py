@@ -52,7 +52,7 @@ for num_of_tries in range(tries):
         check_method = driver.find_element(By.XPATH, '//*[@id="idRichContext_DisplaySign"]')
         bot2 = telebot.TeleBot(TOKEN_ver, parse_mode=None)
         bot2.send_message(ID_TG2,check_method.text)
-        for i in tqdm(range(20)):
+        for i in tqdm(range(120)):
             time.sleep(1)
 
 # don`t log out
